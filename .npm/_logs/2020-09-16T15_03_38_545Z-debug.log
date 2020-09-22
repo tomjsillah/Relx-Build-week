@@ -1,0 +1,26 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'star' ]
+2 info using npm@6.14.6
+3 info using node@v12.18.3
+4 verbose npm-session 4496663449fc3903
+5 verbose stack Error: npm star [<pkg>...]
+5 verbose stack npm unstar [<pkg>...]
+5 verbose stack
+5 verbose stack alias: unstar
+5 verbose stack     at /usr/local/lib/node_modules/npm/lib/star.js:35:29
+5 verbose stack     at tryCatcher (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/util.js:16:23)
+5 verbose stack     at Function.Promise.attempt.Promise.try (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/method.js:39:29)
+5 verbose stack     at EventEmitter.star (/usr/local/lib/node_modules/npm/lib/star.js:34:16)
+5 verbose stack     at Object.commandCache.<computed> (/usr/local/lib/node_modules/npm/lib/npm.js:156:13)
+5 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/bin/npm-cli.js:133:30)
+5 verbose stack     at processTicksAndRejections (internal/process/task_queues.js:79:11)
+6 verbose cwd /Users/jacksonsillaht/Desktop/react-codealong-example
+7 verbose Darwin 19.6.0
+8 verbose argv "/usr/local/bin/node" "/usr/local/bin/npm" "star"
+9 verbose node v12.18.3
+10 verbose npm  v6.14.6
+11 error npm star [<pkg>...]
+11 error npm unstar [<pkg>...]
+11 error
+11 error alias: unstar
+12 verbose exit [ 1, true ]
